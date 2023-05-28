@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap');
 
 /* NAVBAR */
-
-
 @font-face {
     font-family: joystix;
     src: url("../fonts/joystixmonospace.otf") format("opentype");
@@ -11,7 +8,7 @@
 #navbar {
     font-family: 'joystix';
     background-size: cover;
-    background-image: url("../images/CAPTURE.JPG");
+    background-image: url("../images/Capture.JPG");
     padding: 10px 20px;
     transition: all 0.5s ease;
 }
@@ -133,10 +130,10 @@
 /* SECTION NO 2 */
 
 .section-2 {
-    margin: 60px 0 0 0;
-    padding: 100px 0px 50px 0px;
+    padding: 100px 0px 0px 0px;
     font-family: 'joystix';
     background-color: rgb(155,244,68);
+
 }
 
 .primary-heading {
@@ -157,18 +154,8 @@
     color: #ec4cb0;;
 }
 
-.section-2-button {
-    color: #000000;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-top: 50px;
-}
 
-.section-2-button:hover {
-    text-decoration: 3px solid underline !important;
-    color: #000000;
-}
+
 
 @media (max-width: 768px) {
     .section-2 {
@@ -983,13 +970,14 @@
 img {
     max-width: 100%;
     max-height: 100%;
-    margin-top: 100px;
+
 }
 
 .contact-form-div {
 
     width: 100%;
-    border: 1px dotted;
+
+    height: 220vh;
 
 }
 
@@ -997,8 +985,6 @@ iframe {
     height: 100%;
     width: 100%;
     max-height: 100%;
-
-
 }
 
 
@@ -1039,6 +1025,7 @@ iframe {
 
     .contact-form-div {
         padding: 20px !important;
+        height: 250vh;
     }
 
     #contact-custom-button {
