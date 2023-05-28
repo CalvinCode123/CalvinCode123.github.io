@@ -22,10 +22,7 @@
     font-weight: bolder;
 }
 
-
-
 .sticky {
-
     padding: 8px 20px !important;
 }
 
@@ -67,6 +64,7 @@
     font-family: 'joystix';
     font-size: 16px;
     background-color: rgb(155,244,68);
+    height: 100%;
 }
 
 /* SECTION NO 1 */
@@ -156,6 +154,7 @@
 .paragraph {
     width: 50%;
     font-size: 18px;
+    color: #ec4cb0;;
 }
 
 .section-2-button {
@@ -570,10 +569,6 @@
     font-weight: bold;
 }
 
-.work-gallery-row {
-    padding: 0px 20px 0px 20px;
-}
-
 @media (max-width: 1024px) {
     .section-5-text {
         width: 75%;
@@ -985,18 +980,27 @@
     text-decoration: none;
 }
 
-.contact-image {
-    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
-        url(../images/Contact-image-1.jpg);
-    background-position: center;
-    background-size: cover;
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 100px;
 }
 
 .contact-form-div {
-    background-color: #F8F9FA;
-    padding: 50px !important;
-    font-family: 'joystix';
+
+    width: 100%;
+    border: 1px dotted;
+
 }
+
+iframe {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+
+
+}
+
 
 #custom-input1,
 #custom-input2,
