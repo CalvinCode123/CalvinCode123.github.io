@@ -321,6 +321,14 @@
     font-weight: bold;
 }
 
+.contact-para-heading {
+    margin-top: 100px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 .contact-para {
     font-size: 18px;
     letter-spacing: 4px;
