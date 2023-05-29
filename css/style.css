@@ -275,17 +275,20 @@
 
 
 .section-4 {
-    height: 100vh;
-    background-image: url("../images/desktop.gif");
-    background-size: cover;
+    padding: 00px 0px 0px 0px;
+    font-family: 'joystix';
+    background-color: rgb(155,244,68);
 
+}
 
+#myvid{
+    width: 100%;
 }
 
 @media (max-width: 768px) {
     .section-4 {
         height: 100vh;
-        background-image: url("../images/mobile.gif");
+        
         background-size: cover;
     
     
@@ -295,7 +298,7 @@
 @media (max-width: 426px) {
     .section-4 {
         height: 100vh;
-        background-image: url("../images/mobile.gif");
+        
         background-size: cover;
     
     
@@ -305,7 +308,7 @@
 @media (max-width: 320px) {
     .section-4 {
         height: 100vh;
-        background-image: url("../images/mobile.gif");
+        
         background-size: cover;
     
     
